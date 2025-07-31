@@ -1,0 +1,48 @@
+:root {
+  --color0: #fff000;
+  --color1: #fffccc;
+  --color2: #000000;
+  --color3: #00ff00;
+  --color4: #0000ff;
+  --color5: #00ffff;
+  --solid-border: 100px;
+  --dashed-border: 100px;
+}
+.available-0 {
+  background-color: var(--color0);
+}
+.available-1 {
+  background-color: var(--color1);
+}
+.available-2 {
+  background-color: var(--color2);
+}
+.available-3 {
+  background-color: var(--color3);
+}
+.available-4 {
+  background-color: var(--color4);
+}
+.available-5 {
+  background-color: var(--color5);
+}
+.sharp td{
+  border-bottom: var(--solid-border);
+}
+.half td {
+  border-bottom: var(--dashed-border);
+}
+#legend-gradient {
+  background-image: linear-gradient(to right, var(--color0) 0%,
+                var(--color0) 16.66%,
+                var(--color1) 16.66%,
+                var(--color1) 33.33%,
+                var(--color2) 33.33%,
+                var(--color2) 50%,
+                var(--color3) 50%,
+                var(--color3) 66.66%,
+                var(--color4) 66.66%,
+                var(--color4) 83.33%,
+                var(--color5) 83.33%,
+                var(--color5) 100%);    
+}  
